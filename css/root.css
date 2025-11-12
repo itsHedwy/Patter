@@ -1,0 +1,7 @@
+:root {
+    --font-regular: 1rem;
+    --font-title: calc(var(--font-regular) * 1.5);
+    --font-sub: calc(var(--font-regular) * 0.75);
+
+    --color-white: 250, 252, 255;
+}
