@@ -115,9 +115,8 @@ document.addEventListener("DOMContentLoaded", () => {
     counters[1].textContent = `${chars} CHARACTERS`;
   };
 
-  updateCounters(); // initial update
+  updateCounters();
 
-  // Update every second
   setInterval(updateCounters, 500);
 });
 
@@ -133,14 +132,10 @@ document.addEventListener('DOMContentLoaded', () => {
   if (savedTitle !== null) titleEl.value = savedTitle;
   if (savedText !== null) textEl.value = savedText;
 
-  // Save on input
-  titleEl.addEventListener('input', () => {
+  setInterval(() => {
     localStorage.setItem('patter_title', titleEl.value);
-  });
-
-  textEl.addEventListener('input', () => {
     localStorage.setItem('patter_text', textEl.value);
-  });
+  }, 500);
 });
 
 
