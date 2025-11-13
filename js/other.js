@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (resetButton && titleField && textField && counters.length >= 2) {
     resetButton.addEventListener("click", () => {
-      titleField.value = "";
+      titleField.value = "Untitled";
       textField.value = "";
 
       counters[0].textContent = "0 WORDS";
