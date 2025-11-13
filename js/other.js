@@ -17,6 +17,22 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+// button click sound
+document.addEventListener('DOMContentLoaded', () => {
+  const sound = new Audio('shelf/sounds/type.mp3');
+  sound.volume = 0.15
+
+  const buttons = document.querySelectorAll('#click_sound');
+
+  buttons.forEach(button => {
+    button.addEventListener('click', () => {
+      sound.currentTime = 0;
+      sound.play();
+    });
+  });
+});
+
+
 // CONSISTENCY
 // stop title newlines
 document.addEventListener("DOMContentLoaded", () => {
