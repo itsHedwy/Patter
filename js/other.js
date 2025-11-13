@@ -85,9 +85,6 @@ document.addEventListener("DOMContentLoaded", () => {
     resetButton.addEventListener("click", () => {
       titleField.value = "Untitled";
       textField.value = "";
-
-      counters[0].textContent = "0 WORDS";
-      counters[1].textContent = "0 CHARACTERS";
     });
   }
 });
