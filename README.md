@@ -13,3 +13,6 @@ Simply, an application with core functionality to create and export personal tex
 - Local auto-save every .5 seconds;
 - Counter for words and characters;
 - Export in a .txt format;
+
+**Try now:**
+https://itshedwy.github.io/Patter
