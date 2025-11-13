@@ -152,3 +152,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
+// test
+window.addEventListener("load", () => {
+  document.querySelector(".grid-container").style.opacity = "1";
+});
