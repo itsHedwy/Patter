@@ -106,21 +106,22 @@ document.addEventListener("keydown", async (e) => {
 
 // words and characters counter
 document.addEventListener("DOMContentLoaded", () => {
-    const textInput = document.getElementById("textInput");
-    const counters = document.querySelectorAll(".counter");
+  const textInput = document.getElementById("textInput");
+  const counters = document.querySelectorAll(".counter");
 
-    const updateCounters = () => {
-        const text = textInput.value.replace(/\n/g, "");
-        const words = text.trim().split(/\s+/).filter(Boolean).length;
-        const chars = text.length;
+  const updateCounters = () => {
+    const text = textInput.value.replace(/\n/g, "");
+    const words = text.trim().split(/\s+/).filter(Boolean).length;
+    const chars = text.length;
 
-        counters[0].textContent = `${words} WORDS`;
-        counters[1].textContent = `${chars} CHARACTERS`;
-    };
+    counters[0].textContent = `${words} WORDS`;
+    counters[1].textContent = `${chars} CHARACTERS`;
+  };
 
-    updateCounters();
+  updateCounters(); // initial update
 
-    textInput.addEventListener("input", updateCounters);
+  // Update every second
+  setInterval(updateCounters, 500);
 });
 
 // autosave
