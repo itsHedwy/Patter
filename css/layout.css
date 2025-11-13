@@ -9,7 +9,7 @@ html {
     gap: 0;
     height: 100vh;
     display: grid;
-    grid-template-columns: 0.5fr minmax(28em, 62em) 0.5fr;
+    grid-template-columns: 0.5fr minmax(28em, 52em) 0.5fr;
     grid-template-rows: 0.1fr auto 1fr auto;
 }
 
