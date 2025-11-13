@@ -107,3 +107,26 @@ document.addEventListener("DOMContentLoaded", () => {
     textInput.addEventListener("input", updateCounters);
 });
 
+// autosave
+document.addEventListener('DOMContentLoaded', () => {
+  const titleEl = document.querySelector('.title');
+  const textEl = document.querySelector('#textInput');
+
+  // Restore saved content
+  const savedTitle = localStorage.getItem('patter_title');
+  const savedText = localStorage.getItem('patter_text');
+
+  if (savedTitle !== null) titleEl.value = savedTitle;
+  if (savedText !== null) textEl.value = savedText;
+
+  // Save on input
+  titleEl.addEventListener('input', () => {
+    localStorage.setItem('patter_title', titleEl.value);
+  });
+
+  textEl.addEventListener('input', () => {
+    localStorage.setItem('patter_text', textEl.value);
+  });
+});
+
+
