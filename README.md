@@ -1,11 +1,15 @@
 <img width="1824" height="389" alt="patter" src="https://github.com/user-attachments/assets/c435c6ab-ae7d-42fc-93a2-c86039c50a5e" />
 
-**Patter** is a calm application for writers<br/>
-Heavily work in progress
+## What is it?
+**Patter** is an ambient environment for writers.<br/>
+Simply, an application with core functionality to create and export personal texts, but with some emotional refinements.<br/><br/>
+**Note:** Early stage development!
 
-## Current Features
-1. familiar structure title × content;
-2. both word and character counters;
-3. export in a .txt format;
-4. single-tap clear function;
-5. typing sounds
+## Core features
+- Familiar, distraction-free structure:<br/>
+  - title × content;
+- Ambient features:<br/>
+  - typing & button click sounds;
+- Local auto-save every .5 seconds;
+- Counter for words and characters;
+- Export in a .txt format;
