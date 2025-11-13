@@ -150,9 +150,3 @@ document.addEventListener('DOMContentLoaded', () => {
     localStorage.setItem('patter_text', textEl.value);
   }, 500);
 });
-
-
-// test
-window.addEventListener("load", () => {
-  document.querySelector(".grid-container").style.opacity = "1";
-});
