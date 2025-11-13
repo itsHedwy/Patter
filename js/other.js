@@ -32,6 +32,19 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
+// title change
+(function updateTitleLoop() {
+  setInterval(() => {
+    const titleInput = document.querySelector('textarea.title');
+    const userTitle = titleInput?.value?.trim();
+
+    if (!userTitle || userTitle === "Untitled") {
+      document.title = "Patter";
+    } else {
+      document.title = `Patter: ${userTitle}`;
+    }
+  }, 3000);
+})();
 
 // CONSISTENCY
 // stop title newlines
