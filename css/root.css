@@ -4,4 +4,10 @@
     --font-sub: calc(var(--font-regular) * 0.75);
 
     --color-white: 250, 252, 255;
+
+    /* themed */
+    --background-color: rgba(27, 29, 34, 1);
+    --background-picture: url('../shelf/backgrounds/cozy_window.png');
+    --background-texture: url('../shelf/backgrounds/noise.png');
+    --background-blur: blur(24px);
 }

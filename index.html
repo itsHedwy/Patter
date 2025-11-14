@@ -2,10 +2,12 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <title>Patter</title>
-    <link rel="icon" type="image/x-icon" href="icon.ico">
+    <link rel="icon" type="image/x-icon" href="patter.ico">
 
+    <!-- styles -->
     <link rel="stylesheet" href="css/root.css">
     <link rel="stylesheet" href="css/texts.css">
     <link rel="stylesheet" href="css/layout.css">
@@ -13,35 +15,35 @@
     <link rel="stylesheet" href="css/other.css">
     <script src="js/other.js" defer></script>
 
+    <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Amarante&family=Archivo:wght@300;400;500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <link rel="preload" href="https://fonts.gstatic.com/s/archivo/v12/Archivo-Regular.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="https://fonts.gstatic.com/s/bitter/v20/Bitter-Regular.woff2" as="font" type="font/woff2" crossorigin>
 
+    <link href="https://fonts.googleapis.com/css2?family=Amarante&family=Archivo:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-    <!-- <img src="shelf/backgrounds/cozy_window.png" fetchpriority="high" alt="" class="bg"/> -->
-    <div class="grid-container">
+    <div class="interface">
+
         <div class="cell-1"></div>
         <div class="cell-2"></div>
         <div class="cell-3"></div>
         <div class="cell-4"></div>
-
         <div class="cell-5">
+
             <textarea class="title" maxlength="42" spellcheck="false" placeholder="Untitled">Untitled</textarea>
+
         </div>
-
         <div class="cell-6"></div>
-
         <div class="cell-7"></div>
-
         <textarea class="text" maxlength="24000" spellcheck="false" id="textInput" placeholder="Where do we start..."></textarea>
-
         <div class="cell-9">
+
             <div class="toolbox">
                 <button class="export-txt" id="click_sound">
                     <img src="shelf/backgrounds/export.svg" alt="" class="icon" />
@@ -52,19 +54,21 @@
                     CLEAR
                 </button>
             </div>
+
         </div>
         <div class="cell-10"></div>
-
         <div class="cell-11">
+
             <span class="patter">Patter</span>
             <span class="counter-bar">
                 <span class="counter">0 WORDS</span>
                 <span class="counter">0 CHARACTERS</span>
             </span>
-        </div>
 
+        </div>
         <div class="cell-12"></div>
     </div>
+
 </body>
 
 </html>
