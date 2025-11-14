@@ -150,3 +150,11 @@ document.addEventListener('DOMContentLoaded', () => {
     localStorage.setItem('patter_text', textEl.value);
   }, 500);
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  const switchBtn = document.getElementById("switch");
+
+  switchBtn.addEventListener("click", () => {
+    document.documentElement.classList.toggle("light");
+  });
+});

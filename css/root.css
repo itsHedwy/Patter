@@ -5,9 +5,17 @@
 
     --color-primary: 250, 252, 255;
 
-    /* themed */
+    /* default */
     --background-color: rgba(27, 29, 34, 1);
     --background-picture: url('../shelf/backgrounds/cozy_window.png');
     --background-texture: url('../shelf/backgrounds/noise.png');
     --background-blur: blur(24px);
+}
+
+:root.light {
+    --color-primary: 27, 29, 34;
+    --background-color: rgb(255, 255, 255);
+    --background-picture: none;
+    --background-texture: none;
+    --background-blur: blur(0px);
 }
