@@ -1,5 +1,5 @@
 /* structure */
-.s9 {
+.cell-9 {
     padding: 0.625rem;
 }
 
@@ -9,7 +9,7 @@
     gap: 0.625rem;
 }
 
-.s11 {
+.cell-11 {
     display: flex;
     justify-content: space-between;
     align-items: center;
