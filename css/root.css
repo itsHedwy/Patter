@@ -3,7 +3,7 @@
     --font-title: calc(var(--font-regular) * 1.5);
     --font-sub: calc(var(--font-regular) * 0.75);
 
-    --color-white: 250, 252, 255;
+    --color-primary: 250, 252, 255;
 
     /* themed */
     --background-color: rgba(27, 29, 34, 1);

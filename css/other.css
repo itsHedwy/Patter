@@ -31,10 +31,10 @@
 
     background: radial-gradient(
     circle at center left,
-    rgba(var(--color-white), 0.02) 0%,
-    rgba(var(--color-white), 0) 100%
+    rgba(var(--color-primary), 0.02) 0%,
+    rgba(var(--color-primary), 0) 100%
     );
-    color: rgba(var(--color-white), 0.6);
+    color: rgba(var(--color-primary), 0.6);
     padding: 0.625rem;
 
     border-radius: 4px;
@@ -53,10 +53,10 @@
 }
 
 .export-txt:hover {
-    color: rgba(var(--color-white), 1);
+    color: rgba(var(--color-primary), 1);
     background: radial-gradient(
     circle at center left,
-    rgba(var(--color-white), 0.08) 0%,
-    rgba(var(--color-white), 0) 100%
+    rgba(var(--color-primary), 0.08) 0%,
+    rgba(var(--color-primary), 0) 100%
     );
 }
