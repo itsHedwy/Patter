@@ -13,6 +13,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    justify-content: center;
+    gap: 0.625rem;
 }
 
 .counter-bar {
@@ -50,6 +52,28 @@
 .icon {
     height: 18px;
     opacity: 0.6;
+}
+
+.toolbox-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: rgba(var(--color-primary), 0.04);
+    padding: 0.625rem;
+
+    border: 1px solid;
+    border-color: rgba(var(--color-primary), 0.0);
+    border-radius: 4px;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.2s;
+}
+
+.toolbox-item:hover {
+    border: 1px solid;
+    border-color: rgba(var(--color-primary), 0.24);
+    background: rgba(var(--color-primary), 0.12);
 }
 
 .export-txt:hover {

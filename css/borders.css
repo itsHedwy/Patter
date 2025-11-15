@@ -3,7 +3,7 @@
     border-style: solid;
     border-left: 0;
     border-image: 
-    linear-gradient(rgba(var(--color-primary), 0.0), rgba(var(--color-primary), 0.04), rgba(var(--color-primary), 0.04)) 0 100%;
+    linear-gradient(rgba(var(--color-primary), 0.0), rgba(var(--color-primary), 0.06), rgba(var(--color-primary), 0.06)) 0 100%;
 }
 
 .cell-3 {
@@ -11,34 +11,34 @@
     border-style: solid;
     border-right: 0;
     border-image: 
-    linear-gradient(rgba(var(--color-primary), 0.0), rgba(var(--color-primary), 0.04), rgba(var(--color-primary), 0.04)) 0 100%;
+    linear-gradient(rgba(var(--color-primary), 0.0), rgba(var(--color-primary), 0.06), rgba(var(--color-primary), 0.06)) 0 100%;
 }
 
 .cell-4 {
     border: 0px;
     border-top: 1px solid;
-    border-image: linear-gradient(to right, rgba(var(--color-primary), 0.0), rgba(var(--color-primary), 0.04), rgba(var(--color-primary), 0.04));
+    border-image: linear-gradient(to right, rgba(var(--color-primary), 0.0), rgba(var(--color-primary), 0.06), rgba(var(--color-primary), 0.06));
     border-image-slice: 1;
 }
 
 .cell-6 {
     border: 0px;
     border-top: 1px solid;
-    border-image: linear-gradient(to right, rgba(var(--color-primary), 0.04), rgba(var(--color-primary), 0.04), rgba(var(--color-primary), 0.0));
+    border-image: linear-gradient(to right, rgba(var(--color-primary), 0.06), rgba(var(--color-primary), 0.06), rgba(var(--color-primary), 0.0));
     border-image-slice: 1;
 }
 
 .cell-7 {
     border: 0px;
     border-bottom: 1px solid;
-    border-image: linear-gradient(to right, rgba(var(--color-primary), 0.0), rgba(var(--color-primary), 0.04), rgba(var(--color-primary), 0.04));
+    border-image: linear-gradient(to right, rgba(var(--color-primary), 0.0), rgba(var(--color-primary), 0.06), rgba(var(--color-primary), 0.06));
     border-image-slice: 1;
 }
 
 .cell-9 {
     border: 0px;
     border-bottom: 1px solid;
-    border-image: linear-gradient(to right, rgba(var(--color-primary), 0.04), rgba(var(--color-primary), 0.04), rgba(var(--color-primary), 0.0));
+    border-image: linear-gradient(to right, rgba(var(--color-primary), 0.06), rgba(var(--color-primary), 0.06), rgba(var(--color-primary), 0.0));
     border-image-slice: 1;
 }
 
@@ -47,7 +47,7 @@
     border-style: solid;
     border-left: 0;
     border-image: 
-    linear-gradient(rgba(var(--color-primary), 0.04), rgba(var(--color-primary), 0.04), rgba(var(--color-primary), 0.0)) 0 100%;
+    linear-gradient(rgba(var(--color-primary), 0.06), rgba(var(--color-primary), 0.06), rgba(var(--color-primary), 0.0)) 0 100%;
 }
 
 .cell-12 {
@@ -55,22 +55,22 @@
     border-style: solid;
     border-right: 0;
     border-image: 
-    linear-gradient(rgba(var(--color-primary), 0.04), rgba(var(--color-primary), 0.04), rgba(var(--color-primary), 0.0)) 0 100%;
+    linear-gradient(rgba(var(--color-primary), 0.06), rgba(var(--color-primary), 0.06), rgba(var(--color-primary), 0.0)) 0 100%;
 }
 
 .cell-1, .cell-4, .cell-7, .cell-10 {
-    border-right: 1px solid rgba(var(--color-primary), 0.04);
+    border-right: 1px solid rgba(var(--color-primary), 0.06);
 }
 
 .cell-3, .cell-6, .cell-9, .cell-12 {
-    border-left: 1px solid rgba(var(--color-primary), 0.04);
+    border-left: 1px solid rgba(var(--color-primary), 0.06);
 }
 
 .cell-4, .cell-5, .cell-6 {
-    border-bottom: 1px solid rgba(var(--color-primary), 0.04);
-    border-top: 1px solid rgba(var(--color-primary), 0.04);
+    border-bottom: 1px solid rgba(var(--color-primary), 0.06);
+    border-top: 1px solid rgba(var(--color-primary), 0.06);
 }
 
 .cell-10, .cell-11, .cell-12 {
-    border-top: 1px solid rgba(var(--color-primary), 0.04);
+    border-top: 1px solid rgba(var(--color-primary), 0.06);
 }
